@@ -1,0 +1,12 @@
+.nav_bar {
+    width: 100%;
+    padding: 30px 20px 10px 20px;
+    background-color: #294683;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.nav-link {
+    color: #FFF !important;
+    font-size: 16px;
+}
