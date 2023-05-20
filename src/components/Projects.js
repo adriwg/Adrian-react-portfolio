@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import ContentWrapper from './ContentWrapper';
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+<ContentWrapper pageTitle="Projects">
+</ContentWrapper>
   )
 }
 
