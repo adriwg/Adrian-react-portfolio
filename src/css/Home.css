@@ -1,0 +1,63 @@
+.jumbotron {
+    background: #303944;
+}
+
+.hero-banner {
+    position: relative;
+    background: #303944 url("../assets/images/home_bkgd.png") center center no-repeat;
+    background-size: 100% auto;
+    height: 306px;
+}
+
+.nameWrapper {
+    position: absolute;
+    font-family: "Albert Sans";
+    left: 48px;
+    top: 150px;
+}
+
+.hi {
+    font-size: 20px;
+    color: #B0CBEC;
+    font-weight: 300;
+}
+
+.name {
+    font-size: 50px;
+    color: #FF9900;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.title {
+    font-size: 24px;
+    color: #B0CBEC;
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+.profilePic_holder {
+    position: absolute;
+    right: 67px;
+    top: 112px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #F2F0F0;
+}
+
+.section_content_home .container {
+    padding: 23px 48px;
+}
+
+.section_content_home .container p {
+    width: 65%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section_content_home .container button {
+    margin-top: 36px;
+}
+
+
