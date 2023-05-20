@@ -1,9 +1,9 @@
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
-import ProjectGallery from './components/Home';
-import Contact from './components/Home';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -11,10 +11,9 @@ function App() {
     <Router>
     <div>
       <Header />
-      {/* Wrap Route elements in a Routes component */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="projectGallery/*" element={<ProjectGallery />} />
+        <Route path="projects/*" element={<Projects />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
     </div>
