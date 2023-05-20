@@ -3,6 +3,7 @@
     height: calc(100vh - 56px);
     background: #E9EEF3 url("../assets/images/repeat_pattern.png") 0 0 repeat-x;
     padding-top: 35px;
+    overflow: hidden;
 }
 
 .content_wrapper .container {
@@ -25,4 +26,5 @@
 
 .pageContent {
     padding: 30px 30px;
+    height: 100%;
 }

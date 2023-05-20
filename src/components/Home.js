@@ -19,7 +19,7 @@ const Home = () => {
           <p>
           I possess strong skills in transforming ideas into visually stunning and intuitive design solutions. Leveraging my expertise in modern and responsive front-end development, I specialize in elevating user interfaces to deliver seamless and engaging experiences.
           </p>
-      <button type="button" className="btn-default" onclick="">Get in Touch</button>
+      <button type="button" className="btn-default">Get in Touch</button>
         </div>
       </section>
     </div>
