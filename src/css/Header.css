@@ -1,12 +1,50 @@
-/* .nav_bar {
-    width: 100%;
-    padding: 30px 20px 10px 20px;
-    background-color: #294683;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+/*** Logotype ***/
+.logoType {
+    font-family: 'Comfortaa';
+    font-size: 28px;
+    font-weight:500;
+    color: #0581C7;
+    line-height: 56px;
 }
 
-.nav-link {
+.logoType span {
+    color: #6A7786;
+}
+
+/*** NAV ***/
+.nav_bar {
+    width: 100%;
+    background-color: #303944;
+}
+
+.nav {
+    height: 56px;
+}
+
+.nav-item {
+    margin-right: 6px; 
+    font-family: "Albert Sans";
+    font-size: 18px;
+    font-weight: 500 !important;
+    line-height: 56px;
+    text-shadow: 1px 1px 1px #6e6e6e;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+}
+
+.nav-link {  
     color: #FFF !important;
-    font-size: 16px;
-} */
+    padding: 0 25px !important;
+    border-radius: 0 0 12px 12px;
+}
+
+
+.nav-link:hover {
+    background-color: #4F5965;
+}
+
+.nav-link.active {
+    background-color: #FF9900;
+}
