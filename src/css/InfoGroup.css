@@ -1,0 +1,29 @@
+.info_group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info_icon {
+    margin-right: 12px;
+}
+
+.info_title {
+    font-size: 14px;
+    font-weight: 600;
+    color:#0772AE;
+    margin-bottom: -6px;
+}
+
+.info_link {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    margin-top: -4px;
+    text-decoration: none;
+}
+
+.info_link:hover {
+    color: #FF9900;
+}

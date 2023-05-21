@@ -10,14 +10,17 @@ body {
 /** Button Styles **/
 
 .btn-default {
+  font-family: "Albert Sans"; 
   background-color: #4F5965;
+  font-size: 16px;
   color: #FFF;
   border: none;
   border-radius: 25px;
-  padding:15px 30px;
+  padding:12px 30px;
   text-align: center;
   font-weight:500;
   min-width: 100px;
+  text-decoration: none;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -26,6 +29,7 @@ body {
 
 .btn-default:hover {
   background-color: #303944;
+  color: #FFF;
   -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:  0px 2px 8px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.75);

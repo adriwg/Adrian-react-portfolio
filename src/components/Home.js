@@ -1,5 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../css/Home.css';
+import cv from '../assets/cv.pdf';
 
 const Home = () => {
   return (
@@ -16,10 +18,14 @@ const Home = () => {
       </section>
       <section className="section_content_home">
         <div className="container">
-          <p>
+          <p> 
           I possess strong skills in transforming ideas into visually stunning and intuitive design solutions. Leveraging my expertise in modern and responsive front-end development, I specialize in elevating user interfaces to deliver seamless and engaging experiences.
           </p>
-      <button type="button" className="btn-default">Get in Touch</button>
+          <a href={cv} className="btn-default btn_cv">
+          <FontAwesomeIcon icon="fa-solid fa-download" size="lg" style={{color: "#ffffff",}} />&nbsp;
+            Download My CV
+          </a>
+      {/* <button type="button" className="btn-default">Get in Touch</button> */}
         </div>
       </section>
     </div>

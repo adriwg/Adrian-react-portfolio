@@ -14,8 +14,8 @@ const Project = (props) => {
                 {props.des}
                 </p>
                 <div className="btn_wrapper">
-                    <a href={props.deployURL}>Demo</a>
-                    <a href={props.repo}>Repo</a>
+                    <a href={props.deployURL} className="btn-default small">Demo</a>
+                    <a href={props.repo} className="btn-default small">Repo</a>
                 </div>
             </div>
         </div>

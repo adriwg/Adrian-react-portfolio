@@ -1,0 +1,48 @@
+#form_enquiries {
+    font-family: "Albert Sans";
+    width: 60%;
+    height: auto;
+    border:#ccc 1px solid;
+    border-radius: 12px;
+    background-color: #FFF;
+    padding: 24px 33px;
+    margin-top: 60px;
+    background-color: #F2F4F5;
+}
+
+.form_title {
+    font-size: 26px;
+    font-weight: 600;
+    color:#0772AE;
+    margin-bottom: 30px;
+}
+
+#form_enquiries .form-group{
+    margin-bottom: 18px;
+}
+
+#form_enquiries label{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+
+}
+
+#form_enquiries .btn_wrapper {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#form_enquiries .btn_wrapper button{
+    margin-right: 20px;
+    width: 136px;
+}
+
+#form_enquiries .btn_wrapper button:last-child{
+    margin-right: 0;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
