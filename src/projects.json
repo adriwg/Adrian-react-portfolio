@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "title": "StayExplorer",
+        "image": "images/ss_travel_app.png",
+        "deployLink": "https://adriwg.github.io/travel-app/",
+        "github_repo": "https://github.com/adriwg/travel-app"
+    },
+    {
+        "id": 2,
+        "title": "Team Profile Generator",
+        "image": "images/ss_team_profile_generator.png",
+        "deployLink": "https://adriwg.github.io/team-profile-generator/output/team.html",
+        "github_repo": "https://github.com/adriwg/team-profile-generator"
+    },
+    {
+        "id": 3,
+        "title": "My Bootstrap Portfolio",
+        "image": "images/ss_adrian_bootstrap_portfolio.png",
+        "deployLink": "https://adriwg.github.io/Adrian-bootstrap-portfolio/",
+        "github_repo": "https://github.com/adriwg/Adrian-bootstrap-portfolio"
+    },
+    {
+        "id": 4,
+        "title": "Weather Dashboard",
+        "image": "images/ss_weather_dashboard.png",
+        "deployLink": "https://adriwg.github.io/weather-dashboard/",
+        "github_repo": "https://github.com/adriwg/weather-dashboard"
+    },
+    {
+        "id": 5,
+        "title": "Daily Planner",
+        "image": "images/ss_daily_planner.png",
+        "deployLink": "https://adriwg.github.io/daily-planner-app/",
+        "github_repo": "https://github.com/adriwg/daily-planner-app"
+    },
+    {
+        "id": 6,
+        "title": "Password Generator",
+        "image": "images/ss_password_generator.png",
+        "deployLink": "https://adriwg.github.io/password-generator/",
+        "github_repo": "https://github.com/adriwg/password-generator"
+    }
+
+]

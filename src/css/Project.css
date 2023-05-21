@@ -1,0 +1,85 @@
+:root {
+    --card_bdr_radius: 15px;
+    --catd_height: 180px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: #333;
+}
+
+.card {
+    position: relative;
+    width: 18rem;
+    border-radius: var(--card_bdr_radius) !important;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 4px 3px 14px 2px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:  4px 3px 14px 2px rgba(50, 50, 50, 0.5);
+    box-shadow: 4px 3px 14px 2px rgba(50, 50, 50, 0.5);
+}
+
+.card-body {
+    position: relative;
+    height: var(--catd_height);
+    font-family: "Albert Sans";
+    font-size: 16px;
+    color: #333;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: var(--card_bdr_radius) !important;
+    border-top-right-radius: var(--card_bdr_radius) !important;
+    height: var(--catd_height);
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333;
+}
+
+.card-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 15px;
+}
+
+.card-text  span {
+    display: block;
+    line-height: 18px;
+    margin-right: 6px;
+    font-size: 12px;
+    background-color: #eeeeee;
+    padding: 1px 10px;
+    border-radius: 50px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.card-text  span:last-child {
+    margin-right: 0;
+}
+
+.find_out_more {
+    position: absolute;
+    width: 32px;
+    height:32px;
+    right: 20px;
+    bottom: 20px;
+    background: url("../assets/images/right_arrow.png") 0 0 no-repeat;
+    background-size: cover;
+}
