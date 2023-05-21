@@ -3,6 +3,7 @@
         "id": 1,
         "title": "StayExplorer",
         "image": "images/ss_travel_app.png",
+        "des": "StayExplorer is a user-friendly web application designed for travelers. It provides a well-organized display of hotels in the form of cards, complete with images and brief details.",
         "deployLink": "https://adriwg.github.io/travel-app/",
         "github_repo": "https://github.com/adriwg/travel-app"
     },
@@ -10,6 +11,7 @@
         "id": 2,
         "title": "Team Profile Generator",
         "image": "images/ss_team_profile_generator.png",
+        "des": "The Team Profile Generator is a command-line application that allows you to easily create a webpage containing basic information about your team.",
         "deployLink": "https://adriwg.github.io/team-profile-generator/output/team.html",
         "github_repo": "https://github.com/adriwg/team-profile-generator"
     },
@@ -17,6 +19,7 @@
         "id": 3,
         "title": "My Bootstrap Portfolio",
         "image": "images/ss_adrian_bootstrap_portfolio.png",
+        "des": "Building my portfolio using the Bootstrap CSS Framework from scratch.",
         "deployLink": "https://adriwg.github.io/Adrian-bootstrap-portfolio/",
         "github_repo": "https://github.com/adriwg/Adrian-bootstrap-portfolio"
     },
@@ -24,6 +27,7 @@
         "id": 4,
         "title": "Weather Dashboard",
         "image": "images/ss_weather_dashboard.png",
+        "des": "A weather dashboard web app uses the OpenWeather API to retrieve and display current weather conditions and 5-day forecasts for any city.",
         "deployLink": "https://adriwg.github.io/weather-dashboard/",
         "github_repo": "https://github.com/adriwg/weather-dashboard"
     },
@@ -31,6 +35,7 @@
         "id": 5,
         "title": "Daily Planner",
         "image": "images/ss_daily_planner.png",
+        "des": "Daily Planner is a web-based application that helps users to manage their daily schedule. It presents time blocks for standard business hours and allows users to add, edit or delete events on each time block.",
         "deployLink": "https://adriwg.github.io/daily-planner-app/",
         "github_repo": "https://github.com/adriwg/daily-planner-app"
     },
@@ -38,6 +43,7 @@
         "id": 6,
         "title": "Password Generator",
         "image": "images/ss_password_generator.png",
+        "des": "Password Generator is a password generator web app. The app provides users with the flexibility to customize their password by specifying its length and the types of characters they would like to",
         "deployLink": "https://adriwg.github.io/password-generator/",
         "github_repo": "https://github.com/adriwg/password-generator"
     }

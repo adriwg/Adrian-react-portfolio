@@ -17,6 +17,7 @@ const Projects = () => {
               key={project.id}
               id={project.id}
               image = {project.image}
+              des = {project.des}
               title={project.title}
               deployURL={project.deployLink}
               repo = {project.github_repo}

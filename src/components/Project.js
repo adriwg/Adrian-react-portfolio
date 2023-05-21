@@ -11,8 +11,12 @@ const Project = (props) => {
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
                 <p className="card-text">
-                {/* <span>HTML</span><span>JAVASCRIPT</span><span>CSS</span> */}
+                {props.des}
                 </p>
+                <div className="btn_wrapper">
+                    <a href={props.deployURL}>Demo</a>
+                    <a href={props.repo}>Repo</a>
+                </div>
             </div>
         </div>
     </div>
