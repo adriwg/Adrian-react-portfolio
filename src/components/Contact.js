@@ -26,8 +26,8 @@ const Contact = () => {
         <InfoGroup
           title="LinkedIn"
           icon="fa-brands fa-linkedin"
-          link="https://github.com/adriwg"
-          linkName="https://github.com/adriwg"
+          link="https://www.linkedin.com/in/adriwg"
+          linkName="https://www.linkedin.com/in/adriwg"
         ></InfoGroup>
       </div>
       <section className="section_form">
