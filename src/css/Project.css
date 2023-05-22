@@ -72,7 +72,7 @@
     margin-right: 10px;
 }
 
-.card-container .btn_wrapper a:last-child {
+.card-container .btn_wrapper .btn-default.small:last-child {
     margin-right: 0;
 }
 

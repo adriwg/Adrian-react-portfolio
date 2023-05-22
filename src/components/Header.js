@@ -5,7 +5,7 @@ import '../css/Header.css';
 const Header = () => {
   return (
     <div className="nav_bar">
-      <div className="container d-flex justify-content-between">
+      <div className="container">
         <div className="logoType">Adrian's <span>Portfolio</span></div>
         <ul className="nav">
           <li className="nav-item">

@@ -4,46 +4,34 @@
 
 .hero-banner {
     position: relative;
-    background: #303944 url("../assets/images/home_bkgd.png") center center no-repeat;
-    background-size: 100% auto;
-    height: 306px;
 }
 
 .nameWrapper {
     position: absolute;
     font-family: "Albert Sans";
-    left: 48px;
-    top: 150px;
 }
 
 .hi {
-    font-size: 20px;
     color: #B0CBEC;
     font-weight: 300;
 }
 
 .name {
-    font-size: 50px;
     color: #FF9900;
     font-weight: 500;
-    margin-top: -10px;
 }
 
 .title {
-    font-size: 24px;
     color: #B0CBEC;
     font-weight: 300;
-    margin-top: -10px;
 }
 
 .profilePic_holder {
     position: absolute;
-    right: 67px;
-    top: 112px;
-    width: 300px;
-    height: 300px;
     border-radius: 50%;
-    background-color: #F2F0F0;
+    background: url(../assets/images/profile-pic3.jpg) center center no-repeat;
+    background-size: cover;
+    border: #6A7786 8px solid;
 }
 
 .section_content_home .container {
@@ -51,7 +39,6 @@
 }
 
 .section_content_home .container p {
-    width: 65%;
     font-size: 18px;
     font-weight: 400;
 }
@@ -59,6 +46,133 @@
 .section_content_home .container .btn_cv {
     display: inline-block;
     margin-top: 36px;
+}
+
+@media screen and (min-width: 375px) {
+
+    .jumbotron,
+    .hero-banner {
+        height: 260px;
+    }
+
+    .hero-banner {
+        background: #303944 url("../assets/images/home_bkgd.png") center bottom 0px no-repeat;
+        background-size: 200% auto;
+    }
+
+    .nameWrapper {
+        width:100%;
+        left:0;
+        top: 40px;
+        text-align: center;
+    }
+
+    .profilePic_holder {
+        left: 50%;
+        right: auto;
+        top: 142px;
+        margin-left: -110px;
+        width: 220px;
+        height: 220px;
+    }
+
+    .hi {
+        font-size: 16px;
+    }
+
+    .name {
+        font-size: 32px;
+        margin-top: -10px;
+    }
+
+    .title {
+        font-size: 18px;
+        margin-top: -10px;
+    }
+
+    .section_content_home {
+        margin-top: 124px;
+    }
+
+    .section_content_home .container p {
+        width: 100%;
+    }
+
+    .section_content_home .container .btn_wrapper {
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (min-width: 820px) {
+
+    .jumbotron,
+    .hero-banner {
+        height: 306px;
+    }
+
+    .hero-banner {
+        background: #303944 url("../assets/images/home_bkgd.png") center center no-repeat;
+        background-size: 100% auto;
+    }
+
+    .nameWrapper {
+        left: 0;
+        top: 150px;
+        text-align: left;
+    }
+
+    .profilePic_holder {
+        left: auto;
+        right: 0px;
+        top: 112px;
+        width: 280px;
+        height: 280px;
+    }
+
+    .hi {
+        font-size: 20px;
+    }
+
+    .name {
+        font-size: 50px;
+        margin-top: -10px;
+    }
+
+    .title {
+        font-size: 22px;
+        margin-top: -10px;
+    }
+
+    .section_content_home {
+        margin-top: 0;
+    }
+
+    .section_content_home .container p {
+        width: 55%;
+    }
+
+    .section_content_home .container .btn_wrapper {
+        text-align: left;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+
+    .nameWrapper {
+        left: 48px;
+        top: 150px;
+    }
+
+    .profilePic_holder {
+        right: 67px;
+        top: 112px;
+        width: 300px;
+        height: 300px;
+    }
+
 }
 
 

@@ -1,12 +1,13 @@
 #form_enquiries {
     font-family: "Albert Sans";
-    width: 60%;
+    width: 90%;
+    min-width: 350px;
+    max-width: 800px;
     height: auto;
     border:#ccc 1px solid;
     border-radius: 12px;
     background-color: #FFF;
     padding: 24px 33px;
-    margin-top: 60px;
     background-color: #F2F4F5;
 }
 

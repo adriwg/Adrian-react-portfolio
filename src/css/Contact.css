@@ -8,13 +8,40 @@
 .contact_info {
     font-family: "Albert Sans";
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 60px;
 }
 
 .section_form {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+}
+
+@media screen and (min-width: 350px) {
+    .contact_info {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .info_group {
+        margin-bottom: 10px;
+    }
+    .contact_info,
+    .section_form {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .contact_info {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .info_group {
+        margin-bottom: 0;
+    }
+    .contact_info,
+    .section_form {
+        margin-top: 60px;
+    }
 }

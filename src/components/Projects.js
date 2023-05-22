@@ -2,7 +2,6 @@ import { useState } from 'react';
 import ContentWrapper from './ContentWrapper';
 import Project from './Project';
 import projectlist from '../projects.json';
-import '../css/Projects.css';
 
 const Projects = () => {
 
@@ -10,7 +9,6 @@ const Projects = () => {
 
   return (
 <ContentWrapper pageTitle="Projects">
-  <div className="card_wrapper">
         <div className="row no-gutters">
             {projectList.map((project) => (
               <Project
@@ -24,7 +22,6 @@ const Projects = () => {
               />
             ))}
         </div>
-    </div>
 
 </ContentWrapper>
   )

@@ -19,13 +19,15 @@ const Home = () => {
       <section className="section_content_home">
         <div className="container">
           <p> 
-          I possess strong skills in transforming ideas into visually stunning and intuitive design solutions. Leveraging my expertise in modern and responsive front-end development, I specialize in elevating user interfaces to deliver seamless and engaging experiences.
+          I possess strong skills in transforming ideas into visually stunning and intuitive design solutions. Leveraging my expertise in modern and responsive front-end development.
           </p>
-          <a href={cv} className="btn-default btn_cv">
-          <FontAwesomeIcon icon="fa-solid fa-download" size="lg" style={{color: "#ffffff",}} />&nbsp;
+          <div className="btn_wrapper">
+            <a href={cv} className="btn-default btn_cv">
+              <FontAwesomeIcon icon="fa-solid fa-download" size="lg" style={{color: "#ffffff",}} />&nbsp;
             Download My CV
-          </a>
-      {/* <button type="button" className="btn-default">Get in Touch</button> */}
+            </a>
+          </div>
+          
         </div>
       </section>
     </div>
