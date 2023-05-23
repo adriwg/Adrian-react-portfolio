@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Adrian-react-portfolio/static/css/main.f429cbb3.css",
-    "main.js": "/Adrian-react-portfolio/static/js/main.b835283e.js",
+    "main.js": "/Adrian-react-portfolio/static/js/main.78a82e19.js",
     "static/js/787.56d9acf9.chunk.js": "/Adrian-react-portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/profile-pic3.jpg": "/Adrian-react-portfolio/static/media/profile-pic3.9be4e86588f846efa52c.jpg",
     "static/media/cv.pdf": "/Adrian-react-portfolio/static/media/cv.61a4b64d75819ff09e47.pdf",
@@ -53,11 +53,11 @@
     "static/media/albert-sans-v1-latin-regular.woff2": "/Adrian-react-portfolio/static/media/albert-sans-v1-latin-regular.11707242835c37923454.woff2",
     "index.html": "/Adrian-react-portfolio/index.html",
     "main.f429cbb3.css.map": "/Adrian-react-portfolio/static/css/main.f429cbb3.css.map",
-    "main.b835283e.js.map": "/Adrian-react-portfolio/static/js/main.b835283e.js.map",
+    "main.78a82e19.js.map": "/Adrian-react-portfolio/static/js/main.78a82e19.js.map",
     "787.56d9acf9.chunk.js.map": "/Adrian-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f429cbb3.css",
-    "static/js/main.b835283e.js"
+    "static/js/main.78a82e19.js"
   ]
 }
