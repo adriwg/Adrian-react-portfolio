@@ -1,7 +1,7 @@
 {
   "name": "my-react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://adriwg.github.io/Adrian-react-portfolio",
+  "homepage": "https://adriwg.github.io/Adrian-react-portfolio/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -47,5 +47,5 @@
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }
-  
+
 }
