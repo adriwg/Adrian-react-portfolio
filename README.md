@@ -17,7 +17,19 @@ To explore the portfolio locally on your machine, follow these steps:
 
 ## Usage
 
+### Home Page
+- Visit the portfolio to see a brief introduction about me and my brand statements.
+- Download my resume by clicking the "Download Resume" button.
+- Use the navigation menu to switch between the Home, Projects, and Contact pages.
 
+### Projects Page
+- Go to the Projects page to explore my past projects.
+- Each project has a "Demo" button for trying out the deployed version and a "Repo" button for accessing the GitHub repository.
+
+### Contact Page
+- On the Contact page, find my contact information.
+- Connect with me via email, GitHub, or LinkedIn.
+- Use the contact form to send me inquiries or messages.
 
 
 ## Credits
