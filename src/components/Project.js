@@ -2,11 +2,11 @@ import React from 'react';
 import '../css/Project.css';
 
 const Project = (props) => {
-
+  const image = "/Adrian-react-portfolio/"+props.image;
   return (
     <div className="card-container col-lg-4 col-md-6 col-sm-12">
         <div className="card">
-        <img src={props.image} className="card-img-top"
+        <img src={image} className="card-img-top"
                 alt={props.title} />
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
