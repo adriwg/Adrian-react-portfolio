@@ -22,14 +22,20 @@ To explore the portfolio locally on your machine, follow these steps:
 - Download my resume by clicking the "Download Resume" button.
 - Use the navigation menu to switch between the Home, Projects, and Contact pages.
 
+<img width="1321" alt="Screenshot 2023-05-23 at 12 55 20 PM" src="https://github.com/adriwg/Adrian-react-portfolio/assets/124637485/8af9afed-c716-409c-97f7-a14ecb209cd0">
+
 ### Projects Page
 - Go to the Projects page to explore my past projects.
 - Each project has a "Demo" button for trying out the deployed version and a "Repo" button for accessing the GitHub repository.
+
+<img width="1318" alt="Screenshot 2023-05-23 at 12 56 03 PM" src="https://github.com/adriwg/Adrian-react-portfolio/assets/124637485/8cf24eed-80cd-42a8-8077-8d09849b7511">
 
 ### Contact Page
 - On the Contact page, find my contact information.
 - Connect with me via email, GitHub, or LinkedIn.
 - Use the contact form to send me inquiries or messages.
+
+<img width="1321" alt="Screenshot 2023-05-23 at 12 56 29 PM" src="https://github.com/adriwg/Adrian-react-portfolio/assets/124637485/e1a2fe3d-eaf9-44b1-854f-f60a34bf9824">
 
 
 ## Credits
