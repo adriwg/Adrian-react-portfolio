@@ -17,7 +17,7 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path="/Adrian-react-portfolio" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="projects" element={<Projects />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
