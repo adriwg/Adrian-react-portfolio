@@ -18,16 +18,30 @@ const Home = () => {
       </section>
       <section className="section_content_home">
         <div className="container">
-          <p> 
-          I possess strong skills in transforming ideas into visually stunning and intuitive design solutions. Leveraging my expertise in modern and responsive front-end development.
-          </p>
+          <div className="brand_statments">
+            <div className="statements_wrapper">
+              <span className="b1">Transforming ideas into robust and intuitive design solutions</span>
+              <span className="b2">Leveraging my expertise in modern and responsive front-end development.</span>
+            </div>
+          </div>
           <div className="btn_wrapper">
             <a href={cv} className="btn-default btn_cv">
-              <FontAwesomeIcon icon="fa-solid fa-download" size="lg" style={{color: "#ffffff",}} />&nbsp;
-            Download My CV
+            My Resume
             </a>
           </div>
-          
+          <div className="contact_wrapper">
+            <div className="contactLink">
+              <a href="mailto:adrianwg04@gmail.com">
+                <FontAwesomeIcon icon="fa-solid fa-envelope" size="2xl" style={{color: "#303944",}} />
+              </a>
+              <a href="https://github.com/adriwg">
+                <FontAwesomeIcon icon="fa-brands fa-github" size="2xl" style={{color: "#303944",}} />
+              </a>
+              <a href="https://www.linkedin.com/in/adriwg">
+                <FontAwesomeIcon icon="fa-brands fa-linkedin" size="2xl" style={{color: "#303944",}} />
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </div>

@@ -35,18 +35,54 @@
 }
 
 .section_content_home .container {
-    padding: 23px 48px;
-}
-
-.section_content_home .container p {
-    font-size: 18px;
-    font-weight: 400;
+    padding: 0 48px 23px 48px;
 }
 
 .section_content_home .container .btn_cv {
     display: inline-block;
-    margin-top: 36px;
+    margin-top: 80px;
+    width: 180px;
+    text-align: center;
 }
+
+.section_content_home .container .brand_statments {
+    position: relative;
+    margin-left: 0;
+}
+
+.section_content_home .container .brand_statments:before {
+    content: "";
+    position: absolute;
+    display: none;
+    width: 134px;
+    height: 250px;
+    background-color: #f2f2f2;
+    left: 0;
+    top:0;
+}
+
+.b1,
+.b2 {
+    font-family: "Albert Sans";
+    display: inline-block; 
+}
+
+.contact_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.contactLink a {
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+.contactLink a:last-child {
+    margin-right: 0;
+}
+
 
 @media screen and (min-width: 375px) {
 
@@ -63,7 +99,7 @@
     .nameWrapper {
         width:100%;
         left:0;
-        top: 40px;
+        top: 28px;
         text-align: center;
     }
 
@@ -77,29 +113,45 @@
     }
 
     .hi {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .name {
-        font-size: 32px;
-        margin-top: -10px;
+        font-size: 34px;
+        margin-top: -8px;
     }
 
     .title {
         font-size: 18px;
-        margin-top: -10px;
+        margin-top: -6px;
     }
 
     .section_content_home {
         margin-top: 124px;
     }
 
-    .section_content_home .container p {
-        width: 100%;
-    }
-
     .section_content_home .container .btn_wrapper {
         text-align: center;
+    }
+
+    .b1{
+        font-size: 28px;
+        font-weight: 600;
+        color: #2c3641;
+        line-height: 30px;
+    }
+
+    .b2{
+        font-size: 23px;
+        font-weight: 300;
+        color: #303944;
+        line-height: 26px;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+    .section_content_home .container {
+        padding: 20px 48px 23px 48px;
     }
 
 
@@ -149,13 +201,43 @@
         margin-top: 0;
     }
 
-    .section_content_home .container p {
-        width: 55%;
+
+    .section_content_home .container .brand_statments {
+        width: 65%; 
+        height: 260px;
     }
 
-    .section_content_home .container .btn_wrapper {
-        text-align: left;
+    .section_content_home .container .brand_statments:before {
+        display: block;
     }
+
+.statements_wrapper {
+    position: absolute;
+    left: 25px;
+    top:52px;
+}
+
+.b1{
+    font-size: 31px;
+    font-weight: 600;
+    color: #2c3641;
+    line-height: 33px;
+
+}
+
+.b2{
+    font-size: 24px;
+    font-weight: 300;
+    color: #303944;
+    line-height: 28px;
+    margin-top: 12px;
+    margin-left: 0px;
+}
+
+.section_content_home .container {
+    padding: 0 0 23px 0;
+}
+
     
 }
 
@@ -171,6 +253,49 @@
         top: 112px;
         width: 300px;
         height: 300px;
+    }
+
+    .b1{
+        font-size: 34px;
+        font-weight: 600;
+        color: #2c3641;
+        line-height: 36px;
+
+    }
+
+    .b2{
+        font-size: 28px;
+        font-weight: 300;
+        color: #303944;
+        line-height: 32px;
+        margin-top: 12px;
+        margin-left: 27px;
+    }
+
+    .section_content_home .container {
+        padding: 0 48px 23px 48px;
+    }
+    
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    .b1{
+        font-size: 40px;
+        font-weight: 600;
+        color: #2c3641;
+        line-height: 40px;
+
+    }
+
+    .b2{
+        font-size: 36px;
+        font-weight: 300;
+        color: #303944;
+        line-height: 40px;
+        margin-top: 12px;
+        margin-left: 60px;
     }
 
 }
